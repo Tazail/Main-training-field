@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Roboto&display=swap');
+
+.container {
+  background: rgb(255, 255, 255);
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  text-decoration: none;
+  
+  
+}
+
+
+
+
+.header {
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+  box-sizing: border-box;
+  padding: 15px 0px 15px 30px;
+  
+  
+}
+
+.jetro a {
+  font-size: 36px;
+  text-decoration: none;
+  /* display: flex; */
+  font-weight: bold;
+ 
+}
+
+.jetro span:first-child {
+  color: rgb(215, 102, 72);
+}
+
+.jetro span:nth-child(2) {
+  color: rgb(246, 175, 157);
+}
+
+.roof {
+  display: flex;
+  text-transform: capitalize;
+  /* text-align: right; */
+  margin-left: auto;
+  /* margin-right: auto; */
+  margin-top: auto;
+  margin-bottom: auto; 
+  box-sizing: border-box;
+    
+}
+
+.roof a:nth-child(1),
+.roof a:nth-child(3),
+.roof a:nth-child(4),
+.roof a:nth-child(5) {
+  color: rgb(189, 189, 189);
+}
+
+.roof-about-us span:first-child {
+  color: rgb(215, 102, 72);
+}
+
+.roof-about-us span:nth-child(2) {
+  color: rgb(246, 175, 157);
+}
+
+.roof a {
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 30px;
+  float: right;
+}
+
+.lowhead {
+  font-family: 'Bebas Neue', cursive;
+  background: rgb(232, 95, 59);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding: 15px 30px;
+  margin-top: auto;
+}
+
+.main {
+  max-width: 75%;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  
+
+}
+
+.main0 {
+  display: flex;
+  border: 1px solid black;
+  
+}
+
+.photo-part {
+  display: flex;
+}
+
+.photo-part img {
+  object-fit: none;
+}
+
+.photo-part p {
+  margin-left: 1.2em;
+  
+}
+
+.d p:first-letter {
+  text-transform: capitalize;
+  font-size: 38px;
+  font-weight: bold;
+  color:  rgb(232, 95, 59);
+  float: left;
+  margin-right: 8px;  
+ }
+
+.border-text {
+  border-left: 10px solid rgb(232, 95, 59);
+  margin-left: 8%;
+  padding-left: 1.2em;
+  font-style: italic;
+}
+
+.double-text {
+  display: flex;
+
+}
+
+.double-text p:first-child {
+  margin-right: 3.5em;  
+}
+
+.triple-text {
+  display: flex;
+}
+
+.triple-text p:nth-child(1),
+.triple-text p:nth-child(2) {
+  margin-right: 3.5em;
+
+}
+
+.right-main {
+  border: 1px solid black;
+ 
+  width: 100%;
+  
+  
+}
+
+
+
+.about-jetro {
+  display: flex;
+  font-size: 26px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: rgb(215, 102, 72);
+  border: 1px solid black;
+  height: 26px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.box1 {
+  border: 1px solid black;
+  width: 50%;
+  height: 0.7em;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    transparent 0 30px,
+    black 30px 20px
+
+  );
+  /* background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0 5px,
+    black 4px,
+    white 4px
+  ); */
+
+}
+

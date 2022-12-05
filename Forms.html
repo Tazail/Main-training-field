@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                    <body>                                           
+                        <h1>Order Form</h1>
+                        <h5>General Info</h5>
+                        <form id="General Info" action="">
+                            <label for="Email">Email</label>
+                            <input type="text" id="Email" placeholder="your@email.com">
+                            <br>
+                            <label for="Login">Login</label>
+                            <input type="text" id="Login" placeholder="Login">
+                            <br>
+                            <label for="Password">Password</label>
+                            <input type="password" id="Password" placeholder="Password">
+                        </form>                    
+                        <h5>User Info</h5>
+                        <form id="User Info" action="">
+                            <label for="First Name">First Name</label>
+                            <input type="text" id="First Name" placeholder="John">
+                            <br>
+                            <label for="Second Name">Second Name</label>
+                            <input type="text" id="Second Name" placeholder="Doe">
+                            <br>
+                            <label for="Male">Gender</label>
+                            <input type="checkbox" name="Gender" value="checkbox1"> Male
+                            <input type="checkbox" name="Gender" value="checkbox2"> Female
+                            <br>
+                            <label for="Age">Age</label>
+                            <input type="number" id="Age" placeholder="32">
+                            <br>
+                            <label for="About me">About me</label>
+                            <textarea name="About me" id="About me" cols="21" rows="7"></textarea>
+                        </form>
+                        <h5>Order Info</h5>                        
+                        <form id="Order Info" action="">
+                            <label for="Product">Product</label>
+                            <select name="Product" id="Product">
+                                <option value="iPhone">iPhone</option>
+                                <option value="Android">Android</option>
+                                <option value="Symbian">Symbian</option>
+                                <option value="Windows">Windows</option>
+                                <option value="Nokia 3210">Nokia 3210</option>
+                            </select>
+                            <br>
+                            <label for="Color">Front Color</label>
+                            <input type="radio" name="Color" value="radio1"> Black
+                            <input type="radio" name="Color" value="radio2"> Pink
+                            <input type="radio" name="Color" value="radio3"> Gold
+                            <br>
+                            <label for="Back">Back-Side Color</label>
+                            <input type="color" name="Back">
+                            <br>
+                            <label for="Amount">Amount</label>
+                            <input type="number" id="Amount" placeholder="5">
+                            <br>
+                            <label for="Date">Delivery Date</label>
+                            <input type="date" id="Date">
+                            <br>
+                            <br>
+                            <input type="reset" name="Reset" value="Reset">
+                            <input type="submit" name="Submit" value="Submit">
+                        </form>                    
+                    </body>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
