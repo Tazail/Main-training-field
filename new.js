@@ -1,0 +1,22 @@
+let potato = 15.678;
+console.log("Картопелька:", potato);
+let tomato = 123.965;
+console.log("Помідорки:", tomato);
+let latto = 90.2345;
+console.log("Латте:", latto);
+console.log("Максимальне значення (цього не було в лекції):", Math.max(potato, tomato, latto));
+console.log("Мінімальне значення (цього не було в лекції):", Math.min(potato, tomato, latto));
+let sum = potato + tomato + latto;
+console.log("Сумма всіх вартостей:", sum);
+
+console.log("Сумма всіх вартостей без копійок:", Math.floor(potato) + Math.floor(tomato) + Math.floor(latto));
+console.log("Йобана сума товарів, округлена до сотень:", Math.ceil(sum/100)*100);
+console.log("Чи парна сума всіх вартостей, округлена в меншу сторону?:", Math.floor(sum) % 2 == 0);
+console.log("Сума решти, при оплаті всіх товарів (без округлення), якщо клієнт платить 500грн (типу за кожен продукт окремо платять п'ятихатку, а потім решти з трьох транзакцій треба скласти... Заєбісь приклад, заєбісь):", (500-potato) + (500-tomato) + (500-latto));
+console.log();
+let avar = (potato+tomato+latto)/3;
+console.log("Середнє значення цін, округлене до другого знаку після коми:", avar.toFixed(2));
+console.log()
+let discount = Math.floor(Math.random() * 229) + 1;
+console.log("Сума до оплати округлена до 2 знаків після коми з урахуванням знижки,", discount, "грн  =", (sum - discount).toFixed(2));
+console.log("Чистий прибуток:", sum/2 - discount);
